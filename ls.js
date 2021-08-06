@@ -7,8 +7,8 @@ function ls (cmd) {
       if (err) {
         throw err
       } else {
-        process.stdout.write(files.join("\n") + "\n")
-        process.stdout.write("\n prompt > ")
+        process.stdout.write(files.join("\n"))
+        //process.stdout.write("\nprompt > ")
       }
     })
   }
